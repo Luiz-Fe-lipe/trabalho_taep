@@ -20,23 +20,29 @@ class InicioJokenpo : AppCompatActivity() {
         val pcScoreTextView: TextView = findViewById(R.id.pc_score)
         val startGameButton: Button = findViewById(R.id.start_game_button)
         val resetScoreButton: Button = findViewById(R.id.reset_score_button)
+        val voltarMenuButton: Button = findViewById(R.id.voltar_menu)
 
-        // Carregar placar salvo
+
         loadScores(playerScoreTextView, pcScoreTextView)
 
-        // Iniciar o jogo
+
         startGameButton.setOnClickListener {
             val intent = Intent(this, GameActivity::class.java)
             startActivityForResult(intent, 1)
             overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
 
-        // Limpar o placar
+
         resetScoreButton.setOnClickListener {
             playerScore = 0
             pcScore = 0
             updateScores(playerScoreTextView, pcScoreTextView)
-            saveScores() // Salva o placar zerado
+            saveScores()
+        }
+
+        voltarMenuButton.setOnClickListener {
+            val intent = Intent(this, MenuJogos::class.java)
+            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
     }
 
