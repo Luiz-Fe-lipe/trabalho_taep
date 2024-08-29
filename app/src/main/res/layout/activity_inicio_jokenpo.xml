@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/orange"
+    >
+
+    <TextView
+        android:id="@+id/placar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:text="PLACAR"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/player_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogador: 0"
+        android:textSize="24sp"
+
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/pc_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PC: 0"
+        android:padding="50dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/start_game_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Iniciar Jogo"
+        android:background="@color/lightblue"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/reset_score_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:text="Limpar Placar"
+        android:background="@color/lightblue"
+        android:textStyle="bold"
+        />
+</LinearLayout>
