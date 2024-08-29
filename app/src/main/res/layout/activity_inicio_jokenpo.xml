@@ -41,6 +41,7 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="Iniciar Jogo"
+        android:textColor="@color/black"
         android:background="@color/lightblue"
         android:textStyle="bold"/>
 
@@ -51,6 +52,7 @@
         android:layout_marginTop="50dp"
         android:padding="20dp"
         android:text="Limpar Placar"
+        android:textColor="@color/black"
         android:background="@color/lightblue"
         android:textStyle="bold"
         />
