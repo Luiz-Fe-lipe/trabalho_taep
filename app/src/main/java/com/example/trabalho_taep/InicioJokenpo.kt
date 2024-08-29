@@ -14,7 +14,7 @@ class InicioJokenpo : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_inicio_jokenpo)
 
         val playerScoreTextView: TextView = findViewById(R.id.player_score)
         val pcScoreTextView: TextView = findViewById(R.id.pc_score)
