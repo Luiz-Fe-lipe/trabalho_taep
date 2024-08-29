@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         var btLogin = findViewById<Button>(R.id.bttEntrar)
 
         btCadastro.setOnClickListener{
-            val intent = Intent (this, TelaCadastro::class.java)
+            val intent = Intent (this, InicioJokenpo::class.java)
             startActivity(intent)
         }
     }

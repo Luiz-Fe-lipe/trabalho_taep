@@ -43,6 +43,7 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="Iniciar Jogo"
+        android:textSize="20dp"
         android:textColor="@color/black"
         android:background="@color/lightblue"
         android:textStyle="bold"/>
@@ -54,6 +55,7 @@
         android:layout_marginTop="10dp"
         android:padding="20dp"
         android:text="Limpar Placar"
+        android:textSize="20dp"
         android:textColor="@color/black"
         android:background="@color/lightblue"
         android:textStyle="bold"
@@ -66,6 +68,7 @@
         android:layout_marginTop="10dp"
         android:padding="20dp"
         android:text="Menu Principal"
+        android:textSize="20dp"
         android:textColor="@color/black"
         android:background="@color/lightblue"
         android:textStyle="bold"
