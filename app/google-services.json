@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "23060143853",
+    "firebase_url": "https://facul-239d5-default-rtdb.firebaseio.com",
+    "project_id": "facul-239d5",
+    "storage_bucket": "facul-239d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23060143853:android:7497889aa42af4ae8276e4",
+        "android_client_info": {
+          "package_name": "com.example.trabalho_taep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw7iLR9VDTLOwjR4cO0HZEUNNvroZ1EZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23060143853:android:149c15554fac2ca98276e4",
+        "android_client_info": {
+          "package_name": "facul.primeiroapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw7iLR9VDTLOwjR4cO0HZEUNNvroZ1EZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
